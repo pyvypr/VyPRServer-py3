@@ -4,7 +4,7 @@ When a program is monitored with VyPR, the server with which VyPR interacts is t
 
 ## Setup
 
-Once you've cloned this repository, you need to setup the verdict database.  For now, we use sqlite.  Run:
+Once you've cloned this repository, you need to setup the verdict database.  For now, we use sqlite.  In the VyPR server root, run:
 
 `sqlite3 verdicts.db < verdict-schema.sql`
 
