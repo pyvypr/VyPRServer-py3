@@ -12,6 +12,8 @@ to create the database file to which the server will write when it receives inst
 
 Finally, the server needs the Python 3 version of VyPR (http://github.com/pyvypr/VyPR-py3/) to be placed in the root directory of the server (eg, `VyPRServer/VyPR`).  Note that the version of VyPR needed by the server doesn't require you to follow any of the usual setup steps since VyPR is only needed on the server for certain classes it contains.
 
+**VyPR must be found in the directory `VyPR/` in the root directory of the project.**
+
 
 ## Licence
 
